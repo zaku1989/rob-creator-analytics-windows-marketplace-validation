@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "macDataSuffix": "Library/Application Support/Rob Creator Analytics/Codex",
+  "windowsDataSuffix": "Rob Creator Analytics/Codex",
+  "stateDirectory": "state",
+  "runtimeCacheDirectory": "runtime-cache"
+}

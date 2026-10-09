@@ -1,0 +1,20 @@
+{
+  "name": "rob-creator-analytics-windows-validation",
+  "interface": {
+    "displayName": "Rob Creator Analytics Windows Validation"
+  },
+  "plugins": [
+    {
+      "name": "rob-creator-analytics",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rob-creator-analytics"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

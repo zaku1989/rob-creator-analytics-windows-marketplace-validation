@@ -1,0 +1,24 @@
+{
+  "target": "win32-x64",
+  "nodeVersion": "24.21.0",
+  "packagingMode": "chunked",
+  "finalFilename": "node.exe",
+  "finalSize": 93580104,
+  "finalSha256": "ba4e6d110e8c1592a1ecd390f6b05f3da124b13871a5be62b341a07a853c6c32",
+  "chunkSizeLimit": 67108864,
+  "chunkCount": 2,
+  "chunks": [
+    {
+      "path": "node-parts/node.exe.part-000",
+      "bytes": 67108864,
+      "sha256": "b37e9e761e54390044e4acda41fa9fade95c9d5dad40139705cea6eff3bcfc6b"
+    },
+    {
+      "path": "node-parts/node.exe.part-001",
+      "bytes": 26471240,
+      "sha256": "a4526e42a24d30033ccdd633fade432bdad89b0f323bc46fbe86f97ea79c5e9c"
+    }
+  ],
+  "fullBinaryPackaged": false,
+  "credentialHelperPath": "../../scripts/windows-credential-helper.ps1"
+}

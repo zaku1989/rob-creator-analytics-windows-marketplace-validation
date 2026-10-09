@@ -1,0 +1,23 @@
+{
+  "name": "rob-creator-analytics",
+"version": "0.1.0-rc.4",
+  "description": "Manage local Roblox Analytics credentials and Experiences, then query Creator Analytics through three MCP tools.",
+  "author": {
+    "name": "zaku1989"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["roblox", "analytics", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Rob Creator Analytics",
+    "shortDescription": "Read Roblox Creator Analytics through three MCP tools.",
+    "longDescription": "Local Codex integration for Roblox Creator Analytics with OS-vault credentials, saved Experiences, and the shared three-tool Analytics server.",
+    "developerName": "zaku1989",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": [
+      "Check whether Roblox Analytics is ready, then show the available tools."
+    ]
+  }
+}

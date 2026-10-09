@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "rob_creator_analytics": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "./scripts/launch-mcp.ps1"
+      ],
+      "cwd": ".",
+      "enabled": true,
+      "startup_timeout_sec": 10,
+      "tool_timeout_sec": 30,
+      "env_vars": []
+    }
+  }
+}

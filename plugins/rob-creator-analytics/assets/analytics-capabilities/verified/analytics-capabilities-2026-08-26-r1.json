@@ -1,0 +1,5493 @@
+{
+  "schemaVersion": "1.0.0",
+  "snapshotId": "analytics-capabilities-2026-08-26-r1",
+  "catalogAsOf": "2026-08-26",
+  "verifiedAt": "2026-08-26T17:29:05.892Z",
+  "approval": {
+    "reviewReference": "capability-exposure-approved-implementation",
+    "reviewedAt": "2026-08-26T17:29:05.892Z"
+  },
+  "sources": [
+    {
+      "id": "roblox-analytics-metric-catalog",
+      "sourceType": "metric_catalog",
+      "title": "Supported metrics and dimensions",
+      "url": "https://create.roblox.com/docs/cloud/guides/analytics/metrics",
+      "retrievedAt": "2026-08-26T17:28:57.734Z",
+      "publishedOrUpdatedAt": "2026-08-26T17:14:01Z",
+      "sha256": "f7838ec86942f37a3f5714e8f705190a55745014308962ccc3fa957cc39a1b90"
+    }
+  ],
+  "records": [
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingTotalImpressions",
+      "names": [
+        "Impressions"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingTotalRevenueRobux",
+      "names": [
+        "Total revenue"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingVideo2DDailyUniqueViewer",
+      "names": [
+        "Rewarded video daily unique viewers"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingVideo2DEpmNoUnvalidatedPc",
+      "names": [
+        "Rewarded video earnings per mille (EPM)"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingVideo2DImpressions",
+      "names": [
+        "Rewarded video impressions"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AdsPublisherReportingVideo2DRevenueRobux",
+      "names": [
+        "Rewarded video earnings"
+      ],
+      "dimensions": [
+        "AdFormat",
+        "AdInstanceName",
+        "AdPlacementId",
+        "AdsPublisherReportingDataVersion",
+        "Country",
+        "Gender",
+        "OperatingSystem",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AveragePlayTimeMinutesPerDAU",
+      "names": [
+        "Average playtime"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AverageRevenuePerPayingUser",
+      "names": [
+        "Average revenue per paying user (ARPPU)"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AverageRevenuePerUser",
+      "names": [
+        "Average revenue per DAU (ARPDAU)"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "AverageSessionLengthMinutes",
+      "names": [
+        "Average session time"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClickCVR",
+      "names": [
+        "Users detail page CTR"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientCpuTimeAvg",
+      "names": [
+        "Client CPU time"
+      ],
+      "dimensions": [
+        "ClientCpuTimeCategory",
+        "ClientCpuTimeSubCategory",
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientCrashCount",
+      "names": [
+        "Client crash count"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientCrashRate15m",
+      "names": [
+        "Client crash rate"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientFpsAvg",
+      "names": [
+        "Client frame rate"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientFpsP10",
+      "names": [
+        "Client frame rate"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientFpsP50",
+      "names": [
+        "Client frame rate"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientFpsP90",
+      "names": [
+        "Client frame rate"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsageAvg",
+      "names": [
+        "Client memory usage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsageP10",
+      "names": [
+        "Client memory usage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsageP50",
+      "names": [
+        "Client memory usage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsageP90",
+      "names": [
+        "Client memory usage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsagePercentageAvg",
+      "names": [
+        "Client memory usage percentage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsagePercentageP10",
+      "names": [
+        "Client memory usage percentage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsagePercentageP50",
+      "names": [
+        "Client memory usage percentage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ClientMemoryUsagePercentageP90",
+      "names": [
+        "Client memory usage percentage"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CpuCoreUtilization",
+      "names": [
+        "CPU core utilization"
+      ],
+      "dimensions": [
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CpuTimeAvg",
+      "names": [
+        "Server CPU time"
+      ],
+      "dimensions": [
+        "CpuTimeCategory",
+        "CpuTimeSubCategory",
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CpuTimeP10",
+      "names": [
+        "Server CPU time"
+      ],
+      "dimensions": [
+        "CpuTimeCategory",
+        "CpuTimeSubCategory",
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CpuTimeP50",
+      "names": [
+        "Server CPU time"
+      ],
+      "dimensions": [
+        "CpuTimeCategory",
+        "CpuTimeSubCategory",
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CpuTimeP90",
+      "names": [
+        "Server CPU time"
+      ],
+      "dimensions": [
+        "CpuTimeCategory",
+        "CpuTimeSubCategory",
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventAvgPerUserValue",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventAvgValue",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventCount",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventCountUser",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventMaxValue",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventMinValue",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "CustomEventSumValue",
+      "names": [
+        "Custom events"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomEventName",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DailyActiveUsers",
+      "names": [
+        "Daily active users"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DailyCohortRetention",
+      "names": [
+        "Daily cohort retention"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "CohortDay",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DailyRevenue",
+      "names": [
+        "Revenue"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "BalanceType",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "RevenueSource",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreConsumedListRequests",
+      "names": [
+        "List request quota consumption"
+      ],
+      "dimensions": [
+        "DataStoreRequestSource",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreConsumedReadRequests",
+      "names": [
+        "Read request quota consumption"
+      ],
+      "dimensions": [
+        "DataStoreRequestSource",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreConsumedRemoveRequests",
+      "names": [
+        "Remove request quota consumption"
+      ],
+      "dimensions": [
+        "DataStoreRequestSource",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreConsumedWriteRequests",
+      "names": [
+        "Write request quota consumption"
+      ],
+      "dimensions": [
+        "DataStoreRequestSource",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreListRequests",
+      "names": [
+        "List quota usage"
+      ],
+      "dimensions": [
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreListRequestsByEndpoint",
+      "names": [
+        "List quota usage"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreReadRequests",
+      "names": [
+        "Read quota usage"
+      ],
+      "dimensions": [
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreReadRequestsByEndpoint",
+      "names": [
+        "Read quota usage"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreRemoveRequests",
+      "names": [
+        "Remove quota usage"
+      ],
+      "dimensions": [
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreRemoveRequestsByEndpoint",
+      "names": [
+        "Remove quota usage"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreRequests",
+      "names": [
+        "Request count by API and status"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreStatus",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreRequestsByEndpoint",
+      "names": [
+        "Request count by API"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreRequestsByStatus",
+      "names": [
+        "Request count by status"
+      ],
+      "dimensions": [
+        "DataStoreStatus",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreWriteRequests",
+      "names": [
+        "Write quota usage"
+      ],
+      "dimensions": [
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DataStoreWriteRequestsByEndpoint",
+      "names": [
+        "Write quota usage"
+      ],
+      "dimensions": [
+        "DataStoreOperation",
+        "DataStoreTypeV2"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "DauMauStickiness",
+      "names": [
+        "Stickiness (DAU/MAU)"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "EconomyAverageWalletBalance",
+      "names": [
+        "Average wallet balance"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CurrencyType",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform",
+        "TransactionType"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "EconomyTransactionAmount",
+      "names": [
+        "Transaction amount"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CurrencyType",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FlowType",
+        "Gender",
+        "IsNewUser",
+        "ItemSku",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform",
+        "TransactionType"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "EconomyTransactionCount",
+      "names": [
+        "Transactions"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CurrencyType",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FlowType",
+        "Gender",
+        "IsNewUser",
+        "ItemSku",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform",
+        "TransactionType"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "EndToEndCVR",
+      "names": [
+        "Play rate per unique user"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ForwardD1Retention",
+      "names": [
+        "Day 1 retention"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ForwardD30Retention",
+      "names": [
+        "Day 30 retention"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ForwardD7Retention",
+      "names": [
+        "Day 7 retention"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelCohortCompletionRate",
+      "names": [
+        "Cohort completion rate"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelCohortSessionCompletionRate",
+      "names": [
+        "Session cohort completion rate"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelCohortStep1Users",
+      "names": [
+        "FunnelCohortStep1Users"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelStepChurnRate",
+      "names": [
+        "Churn"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelStepCompletionRate",
+      "names": [
+        "Step completion"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelStepOverallCompletionRate",
+      "names": [
+        "Total conversion"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelStepTotalCount",
+      "names": [
+        "Total Sessions"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelUserChurnRate",
+      "names": [
+        "Churn"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelUserOverallCompletionRate",
+      "names": [
+        "Total conversion"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelUserStepCompletionRate",
+      "names": [
+        "Step completion"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "FunnelUserTotalCount",
+      "names": [
+        "Total users"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "CustomField1",
+        "CustomField2",
+        "CustomField3",
+        "FunnelName",
+        "FunnelStep",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "PayerStatus",
+        "Platform"
+      ],
+      "granularities": [
+        "None"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ImpressionCVR",
+      "names": [
+        "Users impression CTR"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ItemMonetizationRevenue",
+      "names": [
+        "Robux Spent (Realtime)"
+      ],
+      "dimensions": [
+        "CollectibleItemTargetType",
+        "CollectibleItemTargetTypeId",
+        "CollectibleItemType",
+        "ProductKey",
+        "ProductType",
+        "SalesLocation"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingCategoricalCustomSignalsSimilarityRatioAvg",
+      "names": [
+        "Categorical custom signal similarity ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingCategoricalCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingCategoricalCustomSignalsSimilarityRatioP10",
+      "names": [
+        "Categorical custom signal similarity ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingCategoricalCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingCategoricalCustomSignalsSimilarityRatioP50",
+      "names": [
+        "Categorical custom signal similarity ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingCategoricalCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingCategoricalCustomSignalsSimilarityRatioP90",
+      "names": [
+        "Categorical custom signal similarity ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingCategoricalCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingNumericCustomSignalsDifferenceAvg",
+      "names": [
+        "Numerical custom signal difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingNumericCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingNumericCustomSignalsDifferenceP10",
+      "names": [
+        "Numerical custom signal difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingNumericCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingNumericCustomSignalsDifferenceP50",
+      "names": [
+        "Numerical custom signal difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingNumericCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingNumericCustomSignalsDifferenceP90",
+      "names": [
+        "Numerical custom signal difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Locale",
+        "MatchmakingNumericCustomSignal",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsAgeDifferenceAvg",
+      "names": [
+        "Age difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsAgeDifferenceP10",
+      "names": [
+        "Age difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsAgeDifferenceP50",
+      "names": [
+        "Age difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsAgeDifferenceP90",
+      "names": [
+        "Age difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonChatGroupRatioAvg",
+      "names": [
+        "Common text chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonChatGroupRatioP10",
+      "names": [
+        "Common text chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonChatGroupRatioP50",
+      "names": [
+        "Common text chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonChatGroupRatioP90",
+      "names": [
+        "Common text chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonDeviceTypeRatioAvg",
+      "names": [
+        "Common device ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonDeviceTypeRatioP10",
+      "names": [
+        "Common device ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonDeviceTypeRatioP50",
+      "names": [
+        "Common device ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonDeviceTypeRatioP90",
+      "names": [
+        "Common device ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonLanguageRatioAvg",
+      "names": [
+        "Common language ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonLanguageRatioP10",
+      "names": [
+        "Common language ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonLanguageRatioP50",
+      "names": [
+        "Common language ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsCommonLanguageRatioP90",
+      "names": [
+        "Common language ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsEstimatePingAvg",
+      "names": [
+        "Estimated ping"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsEstimatePingP10",
+      "names": [
+        "Estimated ping"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsEstimatePingP50",
+      "names": [
+        "Estimated ping"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsEstimatePingP90",
+      "names": [
+        "Estimated ping"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsOccupancyRatioAvg",
+      "names": [
+        "Occupancy ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsOccupancyRatioP10",
+      "names": [
+        "Occupancy ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsOccupancyRatioP50",
+      "names": [
+        "Occupancy ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsOccupancyRatioP90",
+      "names": [
+        "Occupancy ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsPlayHistoryDifferenceAvg",
+      "names": [
+        "Play history difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsPlayHistoryDifferenceP10",
+      "names": [
+        "Play history difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsPlayHistoryDifferenceP50",
+      "names": [
+        "Play history difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsPlayHistoryDifferenceP90",
+      "names": [
+        "Play history difference"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsPreferredPlayerMatchRatioAvg",
+      "names": [
+        "Average friends match ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsVoiceChatRatioAvg",
+      "names": [
+        "Voice chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsVoiceChatRatioP10",
+      "names": [
+        "Voice chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsVoiceChatRatioP50",
+      "names": [
+        "Voice chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MatchmakingSignalsVoiceChatRatioP90",
+      "names": [
+        "Voice chat ratio"
+      ],
+      "dimensions": [
+        "AgeGroup",
+        "Country",
+        "Locale",
+        "Place",
+        "Platform"
+      ],
+      "granularities": [
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "90 days",
+          "value": 90,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryStoreRequestUnitsByEndpoint",
+      "names": [
+        "API request units"
+      ],
+      "dimensions": [
+        "MemoryStoreOperation"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryStoreRequests",
+      "names": [
+        "Request count by API and status"
+      ],
+      "dimensions": [
+        "MemoryStoreOperation",
+        "MemoryStoreStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryStoreRequestsByEndpoint",
+      "names": [
+        "Request count by API"
+      ],
+      "dimensions": [
+        "MemoryStoreOperation"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryStoreRequestsByStatus",
+      "names": [
+        "Request count by status"
+      ],
+      "dimensions": [
+        "MemoryStoreStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryUsageAvg",
+      "names": [
+        "Server memory usage",
+        "Server memory usage by age"
+      ],
+      "dimensions": [
+        "MemoryUsageCategory",
+        "MemoryUsageSubCategory",
+        "Place",
+        "ServerAgeBucket"
+      ],
+      "granularities": [
+        "HalfHour",
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryUsageP10",
+      "names": [
+        "Server memory usage",
+        "Server memory usage by age"
+      ],
+      "dimensions": [
+        "MemoryUsageCategory",
+        "MemoryUsageSubCategory",
+        "Place",
+        "ServerAgeBucket"
+      ],
+      "granularities": [
+        "HalfHour",
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryUsageP50",
+      "names": [
+        "Server memory usage",
+        "Server memory usage by age"
+      ],
+      "dimensions": [
+        "MemoryUsageCategory",
+        "MemoryUsageSubCategory",
+        "Place",
+        "ServerAgeBucket"
+      ],
+      "granularities": [
+        "HalfHour",
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MemoryUsageP90",
+      "names": [
+        "Server memory usage",
+        "Server memory usage by age"
+      ],
+      "dimensions": [
+        "MemoryUsageCategory",
+        "MemoryUsageSubCategory",
+        "Place",
+        "ServerAgeBucket"
+      ],
+      "granularities": [
+        "HalfHour",
+        "None",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "MonthlyActiveUsers",
+      "names": [
+        "Monthly active users"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "OomUnexpectedExits",
+      "names": [
+        "Unexpected out of memory exits"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "PayingUsers",
+      "names": [
+        "Paying users"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "PayingUsersCVR",
+      "names": [
+        "Payer conversion rate"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "PeakConcurrentPlayers",
+      "names": [
+        "Peak concurrent players"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "QualifiedEndToEndCVR",
+      "names": [
+        "Qualified play through rate per user"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "QualifiedUniqueUsersWithPlaySessions",
+      "names": [
+        "Unique users with qualified plays"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "FunnelSource",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "RFYDeepEngagementRate",
+      "names": [
+        "Deep play through rate"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Gender"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "RFYPlayThroughRate",
+      "names": [
+        "Play through rate"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Gender"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "RFYQualifiedPTR",
+      "names": [
+        "Qualified play through rate (recommendations)"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Gender"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "RotraceTotalCalls",
+      "names": [
+        "Client API calls in first 60s after join"
+      ],
+      "dimensions": [
+        "SimplifiedUrl"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "365 days",
+          "value": 365,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ServerCrashCount",
+      "names": [
+        "Server crashes"
+      ],
+      "dimensions": [
+        "CrashType",
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ServerFrameRateAvg",
+      "names": [
+        "Server frame rate"
+      ],
+      "dimensions": [
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ServerFrameRateP10",
+      "names": [
+        "Server frame rate"
+      ],
+      "dimensions": [
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ServerFrameRateP50",
+      "names": [
+        "Server frame rate"
+      ],
+      "dimensions": [
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ServerFrameRateP90",
+      "names": [
+        "Server frame rate"
+      ],
+      "dimensions": [
+        "Place"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SessionDurationSecondsAvg",
+      "names": [
+        "Session time"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SessionDurationSecondsP10",
+      "names": [
+        "Session time"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SessionDurationSecondsP50",
+      "names": [
+        "Session time"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SessionDurationSecondsP90",
+      "names": [
+        "Session time"
+      ],
+      "dimensions": [
+        "MemoryGroup",
+        "OperatingSystem",
+        "Place",
+        "PlaceVersion",
+        "Platform"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SpeechToTextTranscriptionStatuses",
+      "names": [
+        "Audio transcription API responses by status"
+      ],
+      "dimensions": [
+        "SpeechToTextTranscriptionStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "SpeechToTextTranscriptionUsage",
+      "names": [
+        "Audio transcription API usage"
+      ],
+      "dimensions": [
+        "SpeechToTextTranscriptionStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "TextToSpeechRawAudioErrors",
+      "names": [
+        "Audio generation API responses by status"
+      ],
+      "dimensions": [
+        "TextToSpeechRawAudioStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "TextToSpeechRawAudioSuccesses",
+      "names": [
+        "Audio generation API usage"
+      ],
+      "dimensions": [
+        "TextToSpeechRawAudioStatus"
+      ],
+      "granularities": [
+        "HalfHour",
+        "OneDay",
+        "OneHour",
+        "OneMinute"
+      ],
+      "retention": [
+        {
+          "officialText": "28 days",
+          "value": 28,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailAverageSessionLengthMinutes",
+      "names": [
+        "ThumbnailAverageSessionLengthMinutes"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailImpressions",
+      "names": [
+        "Impressions by thumbnail"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailL7QualifiedPTR",
+      "names": [
+        "7D Qualified Play Through Rate by Thumbnail (Cumulative)"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailQualifiedPTR",
+      "names": [
+        "Qualified play through rate by thumbnail"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailQualifiedPlays",
+      "names": [
+        "ThumbnailQualifiedPlays"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "ThumbnailWinningSegments",
+      "names": [
+        "ThumbnailWinningSegments"
+      ],
+      "dimensions": [
+        "ThumbnailAsset",
+        "ThumbnailList"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneHour"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "TotalAbuseReports",
+      "names": [
+        "Total abuse reports"
+      ],
+      "dimensions": [
+        "AbuseCategory",
+        "AbuseChannel"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "TotalPlayTimeHours",
+      "names": [
+        "Playtime"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "TotalSessionsEndedInBucket",
+      "names": [
+        "New user first session retention"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Gender",
+        "OperatingSystem",
+        "Platform",
+        "SessionTimeBucket",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "UniqueAbuseReportSubmittersPer1000PlaytimeHours",
+      "names": [
+        "Abuse report submitters per 1000 playtime hours"
+      ],
+      "dimensions": [
+        "AbuseCategory",
+        "AbuseChannel"
+      ],
+      "granularities": [
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "UniqueUsersWithClicks",
+      "names": [
+        "Users with detail page visits"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "UniqueUsersWithImpressions",
+      "names": [
+        "Unique users with impressions"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "UniqueUsersWithPlaySessions",
+      "names": [
+        "Unique users with plays"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "FunnelSource",
+        "Gender",
+        "IsNewUser",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "Visits",
+      "names": [
+        "Sessions"
+      ],
+      "dimensions": [
+        "AgeGroupV2",
+        "Country",
+        "Gender",
+        "IsNewUser",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserO18Eligibility",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneDay",
+        "OneMonth",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    },
+    {
+      "kind": "metric",
+      "identifier": "WeeklyCohortRetention",
+      "names": [
+        "Weekly cohort retention"
+      ],
+      "dimensions": [
+        "AcquisitionSource",
+        "AgeGroupV2",
+        "CohortWeek",
+        "Country",
+        "Gender",
+        "Locale",
+        "OperatingSystem",
+        "Platform",
+        "UserSegmentationAccountAge",
+        "UserSegmentationActivationStatus",
+        "UserSegmentationEngagementLevel",
+        "UserSegmentationPayerStatus",
+        "UserSegmentationPlatformActivationStatus",
+        "UserSegmentationPlatformSpenderStatus"
+      ],
+      "granularities": [
+        "None",
+        "OneWeek"
+      ],
+      "retention": [
+        {
+          "officialText": "1468 days",
+          "value": 1468,
+          "unit": "days"
+        }
+      ],
+      "notes": [],
+      "provenance": {
+        "sourceIds": [
+          "roblox-analytics-metric-catalog"
+        ]
+      }
+    }
+  ]
+}

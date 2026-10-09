@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "plugin": {
+    "name": "rob-creator-analytics",
+    "version": "0.1.0-rc.4"
+  },
+  "sourceCommit": "88a014f76bddb5b0463cb536bbaa60a1008b0092",
+  "sourceTreeDirty": false,
+  "target": "win32-x64",
+  "node": {
+    "version": "v24.21.0",
+    "archive": "node-v24.21.0-win-x64.zip",
+    "archiveUrl": "https://nodejs.org/download/release/v24.21.0/node-v24.21.0-win-x64.zip",
+    "archiveSha256": "158f7685b44de51f6c0df1d153526cbcd3e1bc739a8dfc607721cef75de9e541",
+    "packagingMode": "chunked",
+    "canonicalSize": 93580104,
+    "executableSha256": "ba4e6d110e8c1592a1ecd390f6b05f3da124b13871a5be62b341a07a853c6c32",
+    "chunkCount": 2,
+    "chunks": [
+      {
+        "path": "node-parts/node.exe.part-000",
+        "bytes": 67108864,
+        "sha256": "b37e9e761e54390044e4acda41fa9fade95c9d5dad40139705cea6eff3bcfc6b"
+      },
+      {
+        "path": "node-parts/node.exe.part-001",
+        "bytes": 26471240,
+        "sha256": "a4526e42a24d30033ccdd633fade432bdad89b0f323bc46fbe86f97ea79c5e9c"
+      }
+    ]
+  },
+  "capabilitySnapshotId": "analytics-capabilities-2026-08-26-r1",
+  "bundles": {
+    "mcpSha256": "9a9bf3ed8fb43cdb6e67df7022407e2f45fab94c5c7111e6550953023f59ff69",
+    "managementSha256": "c72acfc74f66717e9201e6c51e595f8162ca150a60eb008e0f36d99a3c35e9b8",
+    "capabilitySha256": "1d24e90e6f98373c8b42ec733cfef91a168090ca3d79e0093f711d07270d66eb"
+  },
+  "files": [
+    {
+      "path": ".codex-plugin/plugin.json",
+      "bytes": 888,
+      "sha256": "a936d77797f0da9833ac78e99ec7af968c352e3602d4211cbf4790fb24ac7c0b"
+    },
+    {
+      "path": ".mcp.json",
+      "bytes": 368,
+      "sha256": "9b8a8092bfb60548505f7411cb613e65793c1b4f01f65ee083a91d666e80e230"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "assets/analytics-capabilities/manifest.json",
+      "bytes": 206,
+      "sha256": "52a7daf0594ed54bd54d0eca72776164a180604a1a843aa4b38fdb749633b823"
+    },
+    {
+      "path": "assets/analytics-capabilities/verified/analytics-capabilities-2026-08-26-r1.json",
+      "bytes": 113469,
+      "sha256": "1d24e90e6f98373c8b42ec733cfef91a168090ca3d79e0093f711d07270d66eb"
+    },
+    {
+      "path": "licenses/NODE_LICENSE.txt",
+      "bytes": 160555,
+      "sha256": "ed34dd8e3f0a78dbaf00d0444ce8e285b015b765379c2e17880455f70370f8e9"
+    },
+    {
+      "path": "runtime/management-helper.mjs",
+      "bytes": 84707,
+      "sha256": "c72acfc74f66717e9201e6c51e595f8162ca150a60eb008e0f36d99a3c35e9b8"
+    },
+    {
+      "path": "runtime/manifest.json",
+      "bytes": 830,
+      "sha256": "c43a444419f7ff645e13bb307f699f931c506c0b49714909b7d17acc641bfb66"
+    },
+    {
+      "path": "runtime/shared-analytics-mcp.mjs",
+      "bytes": 421142,
+      "sha256": "9a9bf3ed8fb43cdb6e67df7022407e2f45fab94c5c7111e6550953023f59ff69"
+    },
+    {
+      "path": "runtime/win32-x64/layout.json",
+      "bytes": 732,
+      "sha256": "9cce71165fa4923585cc2a9fef0731fb229e7c9a043c1abf552c72e3272c7a24"
+    },
+    {
+      "path": "runtime/win32-x64/node-parts/node.exe.part-000",
+      "bytes": 67108864,
+      "sha256": "b37e9e761e54390044e4acda41fa9fade95c9d5dad40139705cea6eff3bcfc6b"
+    },
+    {
+      "path": "runtime/win32-x64/node-parts/node.exe.part-001",
+      "bytes": 26471240,
+      "sha256": "a4526e42a24d30033ccdd633fade432bdad89b0f323bc46fbe86f97ea79c5e9c"
+    },
+    {
+      "path": "scripts/launch-mcp.ps1",
+      "bytes": 983,
+      "sha256": "25a824b7b2b39b71b6fb48242407a9228841b8df0092e985a8a967d9435a5657"
+    },
+    {
+      "path": "scripts/local-paths.json",
+      "bytes": 230,
+      "sha256": "eecb5bca7fadde871ad4ab8f302f3c5ce686dd7c2fcb9e6718d103aeaaf2f1e9"
+    },
+    {
+      "path": "scripts/local-paths.ps1",
+      "bytes": 1219,
+      "sha256": "cdaa618dda40fd1e14066737f1bd61300dbdcd949b3d291a004df90f68c0a940"
+    },
+    {
+      "path": "scripts/manage.ps1",
+      "bytes": 963,
+      "sha256": "7b6cc8c05680c4e76bf52b9881c03f8045a743271f81bf57a6abb81ee447c29c"
+    },
+    {
+      "path": "scripts/runtime-bootstrap.ps1",
+      "bytes": 4165,
+      "sha256": "3824cf193c09b7cf6e02fcbe1aa037f61c4277834c74c29a016574adc8264d74"
+    },
+    {
+      "path": "scripts/windows-credential-helper.ps1",
+      "bytes": 6793,
+      "sha256": "0ea809a78ce6480db872fa06ccd73ae610c564519e021b90ead9b81f7183f099"
+    },
+    {
+      "path": "skills/rob-creator-analytics-management/SKILL.md",
+      "bytes": 5812,
+      "sha256": "50b9b681b3b06735974596afaacdd4e2e7f1541c6065e2cc9c34deb23e61bf85"
+    }
+  ],
+  "contentManifestSha256": "748baf19828af27fbc4e7dec82d1311982b393cd70b36abe045fc9626faf58e9"
+}
