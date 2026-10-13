@@ -1,6 +1,6 @@
 {
   "name": "rob-creator-analytics",
-"version": "0.1.0-rc.4",
+"version": "0.1.0-rc.5",
   "description": "Manage local Roblox Analytics credentials and Experiences, then query Creator Analytics through three MCP tools.",
   "author": {
     "name": "zaku1989"

@@ -6,6 +6,8 @@
         "-NoLogo",
         "-NoProfile",
         "-NonInteractive",
+        "-ExecutionPolicy",
+        "Bypass",
         "-File",
         "./scripts/launch-mcp.ps1"
       ],

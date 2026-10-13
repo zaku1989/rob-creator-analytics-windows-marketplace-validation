@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pluginVersion": "0.1.0-rc.4",
+  "pluginVersion": "0.1.0-rc.5",
   "nodeVersion": "24.21.0",
   "nodeRange": ">=24 <25",
   "binaryTracked": false,
@@ -16,7 +16,7 @@
       "launcher": "scripts/launch-mcp.ps1",
       "managementLauncher": "scripts/manage.ps1",
       "credentialHelper": "scripts/windows-credential-helper.ps1",
-      "hookShell": "powershell.exe -NoLogo -NoProfile -NonInteractive"
+      "hookShell": "powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass"
     }
   },
   "packagedTarget": "win32-x64"
