@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "pluginVersion": "0.1.0-rc.5",
+  "pluginVersion": "0.1.0",
   "nodeVersion": "24.21.0",
   "nodeRange": ">=24 <25",
   "binaryTracked": false,

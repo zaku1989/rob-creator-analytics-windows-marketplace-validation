@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "plugin": {
     "name": "rob-creator-analytics",
-    "version": "0.1.0-rc.5"
+    "version": "0.1.0"
   },
-  "sourceCommit": "cb196f1bd7024d26abf5b57b2a5fde283d46eb41",
+  "sourceCommit": "1f8bdd5b6e80ec9d0bccc5e4df1a2e9fd1b6cf70",
   "sourceTreeDirty": false,
   "target": "win32-x64",
   "node": {
@@ -31,15 +31,15 @@
   },
   "capabilitySnapshotId": "analytics-capabilities-2026-08-26-r1",
   "bundles": {
-    "mcpSha256": "3497e3f58618f31f6d9ce7f800e319955c66a61aca14f8c4e8bb2b6ddb7b6004",
+    "mcpSha256": "802109758f8094172cc0acee506e4ab6045a8e7e6ae249677f9c3894167ecec5",
     "managementSha256": "84c91deaee9011289778314661b78608d5b03b9cf99bf395be18dc64f197d0e3",
     "capabilitySha256": "1d24e90e6f98373c8b42ec733cfef91a168090ca3d79e0093f711d07270d66eb"
   },
   "files": [
     {
       "path": ".codex-plugin/plugin.json",
-      "bytes": 888,
-      "sha256": "a7dbbcfff337da262ef214fc0d848f09380468bc7fc74fc2fd18973d9474c07f"
+      "bytes": 883,
+      "sha256": "f6a75480240e7ef2f567ad60c950aeba70ee42258a1a8dc5767e54c760cccfcc"
     },
     {
       "path": ".mcp.json",
@@ -73,13 +73,13 @@
     },
     {
       "path": "runtime/manifest.json",
-      "bytes": 854,
-      "sha256": "4d6ee3d8c3dc39747cb7d4560dabb855f592dcffb0f794a8b4b2c8452204ef95"
+      "bytes": 849,
+      "sha256": "81476d0c9fc50e757ce21699126d3fc3aec0fb281141afbf95a83285fbf23e3e"
     },
     {
       "path": "runtime/shared-analytics-mcp.mjs",
-      "bytes": 421190,
-      "sha256": "3497e3f58618f31f6d9ce7f800e319955c66a61aca14f8c4e8bb2b6ddb7b6004"
+      "bytes": 421185,
+      "sha256": "802109758f8094172cc0acee506e4ab6045a8e7e6ae249677f9c3894167ecec5"
     },
     {
       "path": "runtime/win32-x64/layout.json",
@@ -132,5 +132,5 @@
       "sha256": "6d48a26a330101552ac52c6a1867642d0a92bcd2f329254451e4bf4515343f8a"
     }
   ],
-  "contentManifestSha256": "d8190b24dd2aa53c92ad7166ce8a8b79a08b32cf24ff85f8210416968ba69438"
+  "contentManifestSha256": "b68da00a77cee905b2b21d97b240bde0be90d9f94838bc46439563e35f5df7a3"
 }
