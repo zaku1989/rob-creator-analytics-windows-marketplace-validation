@@ -21,6 +21,17 @@ These results do not establish complete first-time setup on a brand-new device o
 
 Browser-only use, WSL, remote hosts, cloud execution, and other processor platforms are outside this version's tested scope.
 
+## Prerequisites
+
+You need:
+
+- A local Codex conversation in the OpenAI Desktop App on macOS Apple Silicon / ARM64 or Windows x64, with access to the plugin marketplace installation workflow described below.
+- A Roblox Experience whose Analytics you are authorized to access and its positive numeric **Universe ID**, not a Place ID.
+- An active Roblox Open Cloud API key with `universe.analytics:read` access to that Experience. Retain appropriate key restrictions.
+- For a Group-owned Experience, an account with the corresponding permission to view its Analytics.
+
+Complete first-time setup on a brand-new device and a minimum supported Desktop version have not been established. Client capabilities and organization policies may limit installation or Management authorization.
+
 ## Distribution
 
 The plugin is distributed through GitHub-hosted plugin marketplaces. It is **not listed in the public Plugins Directory**.
@@ -181,6 +192,14 @@ Deleting a saved Experience removes its local entry, not the Roblox Experience i
 
 Removing the shared key affects queries for all saved Experiences.
 
+### Remove Key, Delete Experience, and Uninstall
+
+| Action | Effect |
+| --- | --- |
+| Remove the API key through Management | Removes the shared locally stored key. Saved Experiences remain; queries require a configured, authorized key. |
+| Delete an Experience through Management | Removes only that saved local entry, not the Roblox Experience or shared key. Deleting the current entry selects the first remaining entry, or leaves no current entry. |
+| Uninstall the plugin | Does not itself remove stored credentials or saved Experiences. Use supported Management operations first if you intend to remove local data. |
+
 ## Example queries
 
 > Find the available daily-active-user metrics and describe their supported dimensions and granularities. Do not query actual Analytics data yet.
@@ -252,5 +271,7 @@ See [SECURITY.md](SECURITY.md) for reporting guidance.
 ## License and affiliation
 
 The plugin is licensed under [Apache-2.0](plugins/rob-creator-analytics/LICENSE.txt). The bundled Node.js license is included at [licenses/NODE_LICENSE.txt](plugins/rob-creator-analytics/licenses/NODE_LICENSE.txt).
+
+Third-party dependency notices are published in [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt). This repository-root document has not been verified as accompanying Marketplace installations or separately downloaded archives.
 
 Rob Creator Analytics is not developed, endorsed, or sponsored by Roblox Corporation. Roblox names and marks belong to their respective owners.
